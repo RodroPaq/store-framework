@@ -7,6 +7,7 @@
     },
     "image#landingbanner":{
         "props":{
+            "src":"http://www.telam.com.ar/advf/imagenes/2017/05/5911aae5a4b3a_645x362.jpg",
             "maxWidth":"100%"
         }
     },
