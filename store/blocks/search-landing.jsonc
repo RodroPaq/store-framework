@@ -8,12 +8,13 @@
     "image#landingbanner":{
         "props":{
             "src":"http://www.telam.com.ar/advf/imagenes/2017/05/5911aae5a4b3a_645x362.jpg",
-            "maxWidth":"100%"
+            "minWidth":"100%"
         }
     },
     "search-result-layout.customQuery":{
+        "blocks":["search-result-layout.desktop","search-result-layout.mobile","search-not-found-layout"],
         "props":{
-            "orderByField":["OrderByReleaseDateDESC"],
+            "orderByField":"OrderByReleaseDateDESC",
             "hideUnavailableItems":true,
             "maxItemsPerPage" : 8,
             "mapField" : "ft",
