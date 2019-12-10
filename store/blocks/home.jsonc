@@ -6,7 +6,7 @@
   },
   "rich-text":{
     "props":{
-      "text":"**Hellso, World!**",
+      "text":"**Hello, World!**",
       "textPosition":"RIGHT"
     }
   }
