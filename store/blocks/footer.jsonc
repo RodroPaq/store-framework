@@ -21,9 +21,9 @@
         ]
       },
       "accepted-payment-methods": {
-        "props": {
+        
           "paymentMethods": ["mastercard", "visa", "diners club"]
-        }
+        
       },
       "social-networks": {
         "props": {
