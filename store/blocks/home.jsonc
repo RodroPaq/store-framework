@@ -3,7 +3,8 @@
     "blocks": [
       "rich-text",
       "info-card#button-right",
-      "info-card#button-left"
+      "info-card#button-left",
+      "flex-layout.row"
     ]
   },
   "rich-text":{
@@ -38,6 +39,27 @@
       "callToActionUrl": "/sale/d",
       "textAlignment": "center",
       "blockclass": "metal"
+    }
+  },
+  "flex-layout.row":{
+    "children": [
+      "info-card#rethink",
+      "rich-text#deletar"
+    ]
+  },
+  "info-card#rethink": {
+    "props": {
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/utensilios-cozinha-min.png",
+      "isFullModeStyle": true,
+      "headline": "Time to rethink your kitchen",
+      "callToActionText": "Discover",
+      "textPosition": "center"
+    }
+  },
+  
+  "rich-text#deletar": {
+    "props": {
+      "text": "I'll be deleted soon"
     }
   }
 }
