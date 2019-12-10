@@ -1,0 +1,16 @@
+
+{
+    "slider-layout#home": {
+      "blocks": ["image#brand1"]
+    },
+    
+    "image#brand1": {
+    "props": {
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square1.png",
+      "isFullModeStyle": true,
+      "headline": "Time to rethink your kitchen",
+      "callToActionText": "Discover",
+      "textPosition": "center"
+    }
+  }
+}
