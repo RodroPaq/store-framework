@@ -7,18 +7,20 @@
     },
     "image#landingbanner":{
         "props":{
-            "src":"http://www.telam.com.ar/advf/imagenes/2017/05/5911aae5a4b3a_645x362.jpg",
+            "src":"https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
             "minWidth":"100%"
         }
     },
     "search-result-layout.customQuery":{
         "blocks":["search-result-layout.desktop","search-result-layout.mobile","search-not-found-layout"],
         "props":{
+            "querySchema":{
             "orderByField":"OrderByReleaseDateDESC",
             "hideUnavailableItems":true,
             "maxItemsPerPage" : 8,
             "mapField" : "ft",
             "queryField":"Blue Top Retro Camera"
+        }
         }
     }
   }
