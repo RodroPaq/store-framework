@@ -42,7 +42,7 @@
     }
   },
   "flex-layout.col#search":{
-    "blocks":["search-content"]
+    "children":["search-content"]
   },
   "search-content":{
     "blocks": ["gallery", "not-found"]
